@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+grep -qs '^# .* GRUB theme for Ultramarine Linux$' "$GRUB_THEME" || exit 0
+echo 'insmod gfxterm_background'
+# GRUB forces light-grey console text while a theme is active, so Breeze
+# Light gets a dark console (its text colour) instead of white.
+if grep -qs '^# Breeze Light ' "$GRUB_THEME"; then
+  echo 'background_color "#232629"'
+else
+  sed -n 's/^desktop-color: \("#[0-9a-fA-F]*"\)$/background_color \1/p' "$GRUB_THEME"
+fi

@@ -1,0 +1,141 @@
+title-text: ""
+desktop-color: "#0f0f0f"
+terminal-font: "Unifont Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ label {
+  top = 50%-200
+  left = 50%-308
+  width = 616
+  height = 22
+  align = "center"
+  text = "Choose Boot Entry"
+  font = "Noto Sans Regular 16"
+  color = "#fcfcfc"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 50%-298
+  top = 50%+125
+  width = 549
+  height = 28
+  bar_style = "progress_bar_*.png"
+  highlight_style = "progress_highlight_*.png"
+}
+
++ label {
+  id = "__timeout__"
+  left = 50%+258
+  top = 50%+130
+  width = 40
+  height = 18
+  align = "right"
+  text = "%d s"
+  font = "Noto Sans Regular 13"
+  color = "#a1a9b1"
+}
+
++ boot_menu {
+  left = 50%-308
+  top = 50%-207
+  width = 616
+  height = 365
+  menu_pixmap_style = "menu_*.png"
+  item_font = "Noto Sans Regular 16"
+  item_color = "#fcfcfc"
+  selected_item_font = "Noto Sans Regular 16"
+  selected_item_color = "#fcfcfc"
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "select_*.png"
+  item_height = 28
+  item_padding = 0
+  item_spacing = 12
+  icon_width = 24
+  icon_height = 24
+  item_icon_space = 7
+  scrollbar = true
+  scrollbar_width = 8
+  scrollbar_frame = "scrollbar_frame_*.png"
+  scrollbar_thumb = "scrollbar_thumb_*.png"
+  scrollbar_left_pad = 5
+  scrollbar_right_pad = 0
+  scrollbar_top_pad = 6
+  scrollbar_bottom_pad = 6
+}
+
++ image {
+  file = "keys/arrows.png"
+  left = 50%-226
+  top = 50%+168
+  width = 28
+  height = 20
+}
+
++ label {
+  left = 50%-192
+  top = 50%+168
+  width = 140
+  height = 20
+  text = "Select"
+  font = "Noto Sans Regular 13"
+  color = "#a1a9b1"
+}
+
++ image {
+  file = "keys/enter.png"
+  left = 50%-130
+  top = 50%+168
+  width = 28
+  height = 20
+}
+
++ label {
+  left = 50%-96
+  top = 50%+168
+  width = 140
+  height = 20
+  text = "Start"
+  font = "Noto Sans Regular 13"
+  color = "#a1a9b1"
+}
+
++ image {
+  file = "keys/e.png"
+  left = 50%-41
+  top = 50%+168
+  width = 20
+  height = 20
+}
+
++ label {
+  left = 50%-15
+  top = 50%+168
+  width = 140
+  height = 20
+  text = "Edit Entry"
+  font = "Noto Sans Regular 13"
+  color = "#a1a9b1"
+}
+
++ image {
+  file = "keys/c.png"
+  left = 50%+69
+  top = 50%+168
+  width = 20
+  height = 20
+}
+
++ label {
+  left = 50%+95
+  top = 50%+168
+  width = 140
+  height = 20
+  text = "Open Command Line"
+  font = "Noto Sans Regular 13"
+  color = "#a1a9b1"
+}
