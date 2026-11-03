@@ -35,7 +35,6 @@ sudo sed -i 's|^GRUB_THEME=.*|GRUB_THEME="/boot/grub2/themes/ultramarine-breeze-
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-
 ## ToDo
 - [x] Add different modes
   - [x] breeze-light
