@@ -14,7 +14,7 @@ KDE Breeze style GRUB theme for Ultramarine Linux
 **Breeze Darker**: `themes/breeze-darker`. Colours from
 [Xela Breeze Darker](https://github.com/xefensor/xela-breeze-darker) by xefensor.
 
-## Install
+## Install (coming soon!)
 
 #### Install with um tweaks
 ```sh
