@@ -14,6 +14,28 @@ KDE Breeze style GRUB theme for Ultramarine Linux
 **Breeze Darker**: `themes/breeze-darker`. Colours from
 [Xela Breeze Darker](https://github.com/xefensor/xela-breeze-darker) by xefensor.
 
+## Install
+
+#### Install with um tweaks
+```sh
+um tweaks enable ultramarine-grub-theme
+
+# Follow the prompts from there
+```
+
+#### Manually install
+```sh
+# Install via Terra
+sudo dnf install ultramarine-grub-theme-breeze-[light, dark, darker]
+
+# Set to the theme in your GRUB config, replace [light, dark, darker] with the option you installed
+sudo sed -i 's|^GRUB_THEME=.*|GRUB_THEME="/boot/grub2/themes/ultramarine-breeze-[light, dark, darker]/theme.txt"|' /etc/default/grub
+
+# Regenerate the GRUB config to apply changes
+sudo grub2-mkconfig -o /boot/grub2/grub.cfgs
+```
+
+
 ## ToDo
 - [x] Add different modes
   - [x] breeze-light
