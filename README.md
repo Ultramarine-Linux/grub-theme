@@ -1,18 +1,17 @@
-# grub-theme
-KDE style GRUB theme for Ultramarine Linux
+# grub-themes
+KDE style GRUB themes for Ultramarine Linux
 
 ![Dark](previews/dark.png)
 
-**Dark**: `themes/dark`. Colours from KDE Plasma's default dark colour scheme.
+**Dark**: `themes/dark`. Based on KDE Plasma's default dark colour scheme.
 
 ![Light](previews/light.png)
 
-**Light**: `themes/light`. Colours from KDE Plasma's default light colour scheme.
+**Light**: `themes/light`. Based on KDE Plasma's default light colour scheme.
 
 ![Darker](previews/darker.png)
 
-**Darker**: `themes/darker`. Colours from
-[Xela Breeze Darker](https://github.com/xefensor/xela-breeze-darker) by xefensor.
+**Darker**: `themes/darker`. Based on [Xela Breeze Darker](https://github.com/xefensor/xela-breeze-darker) by xefensor.
 
 ## ToDo
 - [x] Add different modes
